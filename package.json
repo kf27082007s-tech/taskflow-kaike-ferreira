@@ -1,0 +1,23 @@
+{
+  "name": "taskflow_atividade",
+  "version": "1.0.0",
+  "description": "Aplicação demonstrativa para abertura e acompanhamento de chamados de manutenção em um quadro Kanban. Feita com HTML, CSS e JavaScript, sem etapa de build.",
+  "main": "service-worker.js",
+  "scripts": {
+    "sync:web": "node scripts/sync-web.cjs",
+    "android:sync": "npm run sync:web && cap sync android",
+    "android:open": "cap open android",
+    "android:apk": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-apk.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}

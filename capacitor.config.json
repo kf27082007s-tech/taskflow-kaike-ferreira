@@ -1,0 +1,8 @@
+{
+  "appId": "com.taskflow.atividade",
+  "appName": "TaskFlow",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

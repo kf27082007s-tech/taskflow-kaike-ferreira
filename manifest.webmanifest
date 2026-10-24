@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "TaskFlow · Gestão de manutenção",
+  "short_name": "TaskFlow",
+  "description": "Organize e acompanhe chamados de manutenção.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f8fb",
+  "theme_color": "#087eae",
+  "icons": [
+    {
+      "src": "./icons/taskflow.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
